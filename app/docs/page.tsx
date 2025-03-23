@@ -8,7 +8,7 @@ export default function DocsPage() {
   return (
     <div className="space-y-8 ml-64 pl-6">
       {" "}
-      {/* Added ml-64 to account for sidebar width */}
+  
       <div>
         <h1 id="quick-start" className="scroll-m-20 text-4xl font-bold tracking-tight">
           Quick Start

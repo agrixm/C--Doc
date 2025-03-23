@@ -29,7 +29,7 @@ export function Header() {
           <div className="flex h-16 items-center px-4">
         <div className="flex items-center gap-2 mr-4">
           <div className="flex items-center justify-center">
-            {/* Logo image instead of the round shape */}
+           
             <img 
           src="/logo.png" 
           alt="CPlusPlus Logo" 
@@ -75,7 +75,7 @@ export function Header() {
                 <button className="text-foreground font-medium">Login</button>
               </div>
               
-              {/* Mobile menu button */}
+            
               <button 
                 className="md:hidden ml-2 p-1 rounded-md focus:outline-none" 
                 onClick={toggleMenu}
@@ -89,7 +89,7 @@ export function Header() {
             </div>
           </div>
           
-          {/* Mobile menu */}
+       
           {isMenuOpen && (
             <div className="md:hidden px-4 py-3 border-t border-border border-opacity-40">
               <nav className="flex flex-col space-y-3 text-sm">

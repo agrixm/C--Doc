@@ -16,7 +16,7 @@ export function DocPreview() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
 
-  // Check if screen is mobile
+ 
   useEffect(() => {
     const checkScreenSize = () => {
       setIsMobile(window.innerWidth < 768)
@@ -91,7 +91,7 @@ export function DocPreview() {
       initial="hidden"
       animate="visible"
     >
-      {/* Mobile Header */}
+   
       {isMobile && (
         <div className="bg-black text-white p-4 flex items-center justify-between border-b border-neutral-800 z-10">
           <div className="flex items-center gap-2">
@@ -108,7 +108,7 @@ export function DocPreview() {
         </div>
       )}
 
-      {/* Sidebar */}
+   
       <div className={cn(
         "w-full md:w-64 bg-black text-white flex flex-col",
         "transition-all duration-300 ease-in-out",
@@ -250,7 +250,7 @@ export function DocPreview() {
         )}
       </div>
 
-      {/* Main content */}
+   
       <div className="flex-1 overflow-auto p-4 md:p-8 bg-white dark:bg-neutral-950">
         <div className="mx-auto max-w-3xl">
           <motion.h1 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6" variants={itemVariants}>

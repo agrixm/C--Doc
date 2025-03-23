@@ -50,7 +50,7 @@ export default function ArticlesPage() {
 
   return (
     <DocsLayout toc={<TableOfContents />}>
-      {/* Add padding-top to create gap between navbar and content */}
+  
       <div className="space-y-8 pt-16 sm:pt-20">
         <div>
           <h1 id="articles" className="text-3xl md:text-4xl font-bold mb-3 md:mb-4">

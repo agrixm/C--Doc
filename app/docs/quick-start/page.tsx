@@ -47,16 +47,7 @@ export default function QuickStartPage() {
 
         <div className="rounded-md bg-muted p-4">
           <pre className="text-sm">
-            {`├── app/
-│   ├── docs/[[...slug]]/page.tsx
-│   ├── layout.tsx
-│   └── page.tsx
-├── content/
-│   └── docs/
-│       ├── index.mdx
-│       └── getting-started.mdx
-├── fumadocs.config.ts
-└── next.config.js`}
+  
           </pre>
         </div>
 
@@ -82,19 +73,7 @@ export default function QuickStartPage() {
 
         <div className="rounded-md bg-muted p-4">
           <pre className="text-sm">
-            {`---
-title: Getting Started
-description: Learn how to get started with FumaDocs
----
-
-# Getting Started
-
-Welcome to FumaDocs! This guide will help you get started with creating your documentation site.
-
-## Installation
-
-...
-`}
+ 
           </pre>
         </div>
 

@@ -21,10 +21,9 @@ export function SearchDialog() {
   const [results, setResults] = useState<SearchResult[]>([])
   const [selectedIndex, setSelectedIndex] = useState(0)
 
-  // Mock search results
   useEffect(() => {
     if (searchQuery.length > 1) {
-      // In a real app, this would be an API call or search index lookup
+   
       const mockResults: SearchResult[] = [
         {
           title: "Quick Start",
@@ -75,7 +74,7 @@ export function SearchDialog() {
       }
 
       if (isOpen && results.length > 0) {
-        // Navigate through results with arrow keys
+   
         if (e.key === "ArrowDown") {
           e.preventDefault()
           setSelectedIndex((prev) => (prev + 1) % results.length)
